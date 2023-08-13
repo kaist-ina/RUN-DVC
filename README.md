@@ -8,6 +8,11 @@ for existing DVCs.
 - improves robustness of DVC against a specific sequencing method using its unlabeled datasets.
 - achieves higher variant calling accuracy in a target sequencing method using fewer labels (nearly half) when partially labeled datasets are available.
 - works on multiple sequencing platforms including Illumina, BGI, PacBio, and ONT. -->
+
+[Overview of source and target domain](img/fig1-a.pdf)
+
+[Illustration of the training process in RUN-DVC](img/fig1-b.pdf)
+
 ---
 
 ## Table of Contents
