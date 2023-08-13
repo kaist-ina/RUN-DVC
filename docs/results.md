@@ -35,6 +35,7 @@
 
 *Table Caption*: Variant calling result (PASS calls) in HG002 sample of P-A and O-A under UDA setting.
 
+<img src="fig2-a.jpg" width="80%" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 
 <!-- | Method              | Variant type | I-A Recall   | I-A Precision | I-A F1-score | I-B Recall   | I-B Precision | I-B F1-score |
