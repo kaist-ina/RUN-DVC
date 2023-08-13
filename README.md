@@ -15,7 +15,7 @@ datasets in the target domain and enables label-efficient generalization when pa
 
 ## Performance of RUN-DVC
 - Using only unlabeled data from the target sequencing method, RUN-DVC improves variant calling accuracy up to 6.40%p in SNP F1-score and 9.36%p in INDEL F1-score. See [results](docs/results.md) for further detail.
-- RUN-DVC achieves the same variant calling accuracy of the supervised training approach using merely half of the labeled data
+- RUN-DVC achieves the same variant calling accuracy of the supervised training approach using merely half of the labeled data. See [results](docs/fig5.jpg) for further detail.
 
 <!-- ## What RUN-DVC provides:
 - presents an alternative to the supervised training methods in DVC.
