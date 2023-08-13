@@ -314,4 +314,4 @@ If you found RUN-DVC interesting and want to cite! Please cite the following [pa
 - Extending RUN-DVC to somatic mutation calling
 - Active learning for improving label-efficiency
 - Improving performance of RUN-DVC with hyper-parameter adjustment and data-augmentations
-- Evaluating in RUN-DVC on different species
+- Evaluating RUN-DVC on different species
