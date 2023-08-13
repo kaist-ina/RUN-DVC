@@ -268,8 +268,8 @@ If you found RUN-DVC interesting and want to cite! Please cite the following [pa
 ```
 
 ## Future works
-- Training DVC on simulated reads to transfer knowledge in known artifacts to the model
+- Training DVC on simulated reads and transfering knowledge to real-world data
 - Extending RUN-DVC to somatic mutation calling
 - Active learning for improving label-efficiency
 - Improving performance of RUN-DVC with hyper-parameter adjustment and data-augmentations
-- Evaluating in different species
+- Evaluating in RUN-DVC on different species
