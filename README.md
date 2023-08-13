@@ -1,9 +1,13 @@
 # RUN-DVC: Generalizing DL based variant callers with domain adaptation and semi-supervised learning
-## What RUN-DVC provides:
+RUN-DVC is a semi-supervised training approach for DL based variant callers that improves the robustness and enables label-efficient generalization to a target sequencing method. 
+RUN-DVC leverages the consistency training and random logit interpolation techniques, allowing it to learn error profiles from unlabeled data of the target sequencing method using the knowledge obtained in labeled data. 
+These training techniques are complementary to the supervised training approach, positioning RUN-DVC as an alternative training solution
+for existing DVCs.
+<!-- ## What RUN-DVC provides:
 - presents an alternative to the supervised training methods in DVC.
 - improves robustness of DVC against a specific sequencing method using its unlabeled datasets.
-- facilitates generalization of DVC to target sequencing method using fewer labels when partially labeled datasets are available.
-- works on multiple sequencing platforms including Illumina, BGI, PacBio, and ONT.
+- achieves higher variant calling accuracy in a target sequencing method using fewer labels (nearly half) when partially labeled datasets are available.
+- works on multiple sequencing platforms including Illumina, BGI, PacBio, and ONT. -->
 ---
 
 ## Table of Contents
