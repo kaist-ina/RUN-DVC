@@ -1,0 +1,3 @@
+*.pyc
+*vcf.gz
+*.vcf.gz.tbi
