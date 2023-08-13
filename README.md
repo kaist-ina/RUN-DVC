@@ -4,7 +4,7 @@ Contact: Youngmok Jung, Dongsu Han, Young Seok Ju
 Email: tom418@kaist.ac.kr, dhan.ee@kaist.ac.kr, ysju@kaist.ac.kr
 
 ---
-## About RUN-DVC
+## Introduction: RUN-DVC is a training solution for DL-based variant callers
 - RUN-DVC significantly improves the variant calling accuracy of DVC in the target sequencing method even with purely unlabeled datasets in the target domain and enables label-efficient generalization when partially labeled datasets are available.
 - We introduce a new perspective, framing the enhancement of the generalizability and robustness of DVC against a target sequencing method as domain adaptation and semi-supervised learning problems, leveraging readily accessible unlabeled datasets from the target sequencing method.
 - We view each sequencing method as a unique domain. Factors such as sample source, sample preparation protocols, library construction techniques, sequencing configurations, and variations across machines from different companies contribute to distinct error profiles.
