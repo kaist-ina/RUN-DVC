@@ -199,6 +199,7 @@ python /root/RUN-DVC/RUNDVC/merge_model.py --model <SAVE_MODEL.best> --output <O
 - See `rundvc_callvariants.sh` or example below.
 ```sh
 # Please revise the arguments before using.
+# For short reads
 mkdir -p /data/output/calls/
 BAM_FILE="/data/HG003.novaseq.pcr-free.30x.dedup.grch38.bam"
 DATA_NAME="baseline_novaplus2novafree"
@@ -214,6 +215,23 @@ MODEL="/data/rundmc/baseline_novaplus.pt"
   --fa_model=${MODEL} \
   --no_phasing_for_fa \
   --output=/data/output/calls/rundvc_${DATA_NAME}
+
+# for Pacbio HIFI with pileup model
+P_MODEL="/data/rundmc/p_model.pt"
+FA_MODEL="/data/rundmc/fa_model.pt"
+./run_rundmc.sh \
+  --rundvc_call_mut \
+  --bam_fn=${BAM_FILE} \
+  --bed_fn=/data/data_HG00X/HG003_GRCh38_1_22_v4.2.1_benchmark.bed  \
+  --ref_fn=/data/human_ref/hg38/Homo_sapiens_assembly38.fasta \
+  --threads=94 \
+  --chunk_num=50 \
+  --platform="hifi" \
+  --pileup_model=${P_MODEL} \
+  --fa_model=${FA_MODEL} \
+  --no_phasing_for_fa \
+  --output=/data/output/calls/rundvc_${DATA_NAME}
+
 
 # for ONT with pileup model
 P_MODEL="/data/rundmc/p_model.pt"
