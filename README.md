@@ -9,6 +9,8 @@ Email: tom418@kaist.ac.kr, dhan.ee@kaist.ac.kr, ysju@kaist.ac.kr
 - RUN-DVC leverages the consistency training and random logit interpolation techniques, allowing it to learn sequencing error profiles from unlabeled data of the target sequencing method using the knowledge obtained in labeled data. 
 - These training techniques are complementary to the supervised training approach, positioning RUN-DVC as an alternative training solution
 for existing DVCs.
+
+
 <!-- ## What RUN-DVC provides:
 - presents an alternative to the supervised training methods in DVC.
 - improves robustness of DVC against a specific sequencing method using its unlabeled datasets.
@@ -178,6 +180,7 @@ MODEL_FOLDER_PATH="data/train_result_RUNDVC"
 mkdir -p ${MODEL_FOLDER_PATH}
 
 BINS_FOLDER_PATH="/data/data_bins_fix/data_bin_F_novaseq_pcr"
+TL_BINS_FOLDER_PATH="/data/data_bins_fix/data_NOSELECT_novaplus"
 UL_BINS_FOLDER_PATH="/data/data_bins_fix/data_NOSELECT_novaplus"
 PLATFORM="ilmn"
 
