@@ -118,7 +118,7 @@ python /root/RUN-DVC/RUNDVC/Train_torch.py \
 ```
 
 ## Training CNN model with RUN-DVC
-- Example of training scripts are also provided in RUNDVC folder.
+- Training RUNDVC.
 ```sh
 # Below is an example of training RUNDVC script for Short reads
 MODEL_FOLDER_PATH="data/train_result_RUNDVC"
@@ -137,7 +137,7 @@ python /root/RUN-DVC/RUNDVC/train_rundvc.py \
     --USE_SWA True --swa_start_epoch 19
 ```
 
-- Training BaselineBN model and ablation study
+- Training BaselineBN or Full-label model and ablation study
 ```sh
 # You can use below arguments to disable SSL or RLI module.
 # If you disable those, it works in the supervised training method, BaselineBN
