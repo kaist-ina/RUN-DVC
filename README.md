@@ -10,6 +10,9 @@ Email: tom418@kaist.ac.kr, dhan.ee@kaist.ac.kr, ysju@kaist.ac.kr
 - These training techniques are complementary to the supervised training approach, positioning RUN-DVC as an alternative training solution
 for existing DVCs.
 
+## Performance of RUN-DVC
+- Using only unlabeled data from the target sequencing method, RUN-DVC improves variant calling accuracy up to 6.40%p in SNP F1-score and 9.36%p in INDEL F1-score.
+- RUN-DVC achieves the same variant calling accuracy of the supervised training approach using merely half of the labeled data
 
 <!-- ## What RUN-DVC provides:
 - presents an alternative to the supervised training methods in DVC.
@@ -20,6 +23,10 @@ for existing DVCs.
 <img src="img/fig1-a.jpg" width="80%" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 <img src="img/fig1-b.jpg" width="80%" style="margin-left: auto; margin-right: auto; display: block;"/>
+
+
+
+
 
 
 ---
