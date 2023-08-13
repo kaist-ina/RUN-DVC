@@ -9,9 +9,9 @@ for existing DVCs.
 - achieves higher variant calling accuracy in a target sequencing method using fewer labels (nearly half) when partially labeled datasets are available.
 - works on multiple sequencing platforms including Illumina, BGI, PacBio, and ONT. -->
 
-[Overview of source and target domain](img/fig1-a.pdf)
+[Overview of source and target domain](img/fig1-a.jpf)
 
-[Illustration of the training process in RUN-DVC](img/fig1-b.pdf)
+[Illustration of the training process in RUN-DVC](img/fig1-b.jpf)
 
 ---
 
