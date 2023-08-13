@@ -9,9 +9,9 @@ for existing DVCs.
 - achieves higher variant calling accuracy in a target sequencing method using fewer labels (nearly half) when partially labeled datasets are available.
 - works on multiple sequencing platforms including Illumina, BGI, PacBio, and ONT. -->
 
-<img src="img/fig1-a.jpg" width="80%"/>
+<img src="img/fig1-a.jpg" width="80%" style="margin-left: auto; margin-right: auto; display: block;"/>
 
-<img src="img/fig1-b.jpg" width="80%"/>
+<img src="img/fig1-b.jpg" width="80%" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 
 ---
