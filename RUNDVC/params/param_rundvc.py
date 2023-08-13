@@ -41,7 +41,7 @@ patience=10
 
 clip_grad_norm=0.5
 mu = 0.05
-initialLearningRate = 3e-5
+initialLearningRate = 1e-4 # 3e-5
 l2RegularizationLambda = 1e-5
 
 swa_step_size=32

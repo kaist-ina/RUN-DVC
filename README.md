@@ -10,6 +10,8 @@ Email: tom418@kaist.ac.kr, dhan.ee@kaist.ac.kr, ysju@kaist.ac.kr
 - RUN-DVC leverages the consistency training and random logit interpolation techniques, allowing it to learn sequencing error profiles from unlabeled data of the target sequencing method using the knowledge obtained in labeled data. 
 - These training techniques are complementary to the supervised training approach, positioning RUN-DVC as an alternative training solution
 for existing DVCs.
+- RUN-DVC significantly improves the variant calling accuracy of DVC in the target sequencing method even with purely unlabeled
+datasets in the target domain and enables label-efficient generalization when partially labeled datasets are available
 
 ## Performance of RUN-DVC
 - Using only unlabeled data from the target sequencing method, RUN-DVC improves variant calling accuracy up to 6.40%p in SNP F1-score and 9.36%p in INDEL F1-score.
