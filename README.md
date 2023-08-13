@@ -1,4 +1,4 @@
-# RUN-DVC: Generalizing DL-based variant callers (DVC) with domain adaptation and semi-supervised learning
+# RUN-DVC: Generalizing DL-based variant callers (DVC) via domain adaptation and semi-supervised learning
 Contact: Youngmok Jung, Dongsu Han, Young Seok Ju
 
 Email: tom418@kaist.ac.kr, dhan.ee@kaist.ac.kr, ysju@kaist.ac.kr
