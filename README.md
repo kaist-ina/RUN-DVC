@@ -269,12 +269,12 @@ FA_MODEL="/data/rundmc/fa_model.pt"
 
 ---
 ## Evaluation with hap.py
-- You should download stratifications from [here](https://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/genome-stratifications/).
-- See [here](https://github.com/genome-in-a-bottle/genome-stratifications/) for descriptions of stratifications
+- Stratifications data is available [here](https://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/genome-stratifications/).
+- See [here](https://github.com/genome-in-a-bottle/genome-stratifications/) for descriptions of stratifications.
 ```sh
-# Below is an example of running hap.py with stratifications
+# Below is an example of running hap.py with stratifications, please revise the arguments
 mkdir -p /data/output/full_label
-docker run -it -v /ssd2:/data pkrusche/hap.py /opt/hap.py/bin/hap.py \
+docker run -it -v <Your Path>:/data pkrusche/hap.py /opt/hap.py/bin/hap.py \
         /data/data_HG00X/HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz \
         /data/rundmc/Fulllabel_hiseqX/merge_output.vcf.gz \
          -o /data/output/full_label/full_label_hg003_hiseqX \
