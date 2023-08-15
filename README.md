@@ -299,13 +299,24 @@ The modifications to Clair3 in this project are made by Youngmok Jung and are li
 ```
 ## Citation
 
-If you found RUN-DVC interesting and want to cite! Please cite the following [paper]()
-<!-- **Youngmok Jung, Dongsu Han, BWA-MEME: BWA-MEM emulated with a machine learning approach, Bioinformatics, Volume 38, Issue 9, 1 May 2022, Pages 2404–2413, https://doi.org/10.1093/bioinformatics/btac137** -->
+If you found RUN-DVC interesting and want to cite! Please cite the following [paper](https://www.biorxiv.org/content/10.1101/2023.08.12.549820v1)
+<!-- **Youngmok Jung, Jinwoo Park, Hwijoon Lim, Jeong Seok Lee, Young Seok Ju, Dongsu Han
+bioRxiv 2023.08.12.549820; doi: https://doi.org/10.1101/2023.08.12.549820** -->
 
 
 ```
-@article{
+@article {Jung2023.08.12.549820,
+	author = {Youngmok Jung and Jinwoo Park and Hwijoon Lim and Jeong Seok Lee and Young Seok Ju and Dongsu Han},
+	title = {Generalizing deep variant callers via domain adaptation and semi-supervised learning},
+	elocation-id = {2023.08.12.549820},
+	year = {2023},
+	doi = {10.1101/2023.08.12.549820},
+	publisher = {Cold Spring Harbor Laboratory},
+  URL = {https://www.biorxiv.org/content/early/2023/08/14/2023.08.12.549820},
+	eprint = {https://www.biorxiv.org/content/early/2023/08/14/2023.08.12.549820.full.pdf},
+	journal = {bioRxiv}
 }
+
 
 ```
 
