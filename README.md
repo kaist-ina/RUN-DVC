@@ -5,15 +5,15 @@ Email: tom418@kaist.ac.kr, dhan.ee@kaist.ac.kr, ysju@kaist.ac.kr
 
 ---
 ## Introduction: RUN-DVC is a training solution for DL-based variant callers
-- RUN-DVC significantly improves the variant calling accuracy of DVC in the target sequencing method even with purely unlabeled datasets from the target domain and enables label-efficient generalization when partially labeled datasets are available.
-- We introduce a new perspective, framing the enhancement of the generalizability and robustness of DVC against a target sequencing method as domain adaptation and semi-supervised learning problems, leveraging readily accessible unlabeled datasets from the target sequencing method.
+- RUN-DVC significantly improves the variant calling accuracy of DVC in a sequencing method of interest even with purely unlabeled datasets from the target domain and enables label-efficient generalization when partially labeled datasets are available.
+- We introduce a new perspective, framing the enhancement of the generalizability and robustness of DVC against a specific sequencing method as domain adaptation and semi-supervised learning problems, leveraging readily accessible unlabeled datasets from the sequencing method.
 - We view each sequencing method as a unique domain. Factors such as sample source, sample preparation protocols, library construction techniques, sequencing configurations, and variations across machines from different companies contribute to distinct error profiles.
-- RUN-DVC leverages the consistency training and random logit interpolation techniques, allowing it to learn sequencing error profiles from unlabeled data of the target sequencing method using the knowledge obtained in labeled data. 
+- RUN-DVC leverages the consistency training and random logit interpolation techniques, allowing it to learn sequencing error profiles from unlabeled data using the knowledge obtained in labeled data. 
 - These training techniques are complementary to the supervised training approach, positioning RUN-DVC as an alternative training solution
 for existing DVCs.
 
 ## Performance of RUN-DVC
-- Using only unlabeled data from the target sequencing method, RUN-DVC improves variant calling accuracy up to 6.40%p in SNP F1-score and 9.36%p in INDEL F1-score. See [results](docs/results.md) for further detail.
+- Using only unlabeled data from a sequencing method of interest, RUN-DVC improves variant calling accuracy up to 6.40%p in SNP F1-score and 9.36%p in INDEL F1-score. See [results](docs/results.md) for further detail.
 - RUN-DVC achieves the same variant calling accuracy of the supervised training approach using merely half of the labeled data. See [results](docs/fig5.jpg) for further detail.
 
 <!-- ## What RUN-DVC provides:
@@ -48,9 +48,9 @@ for existing DVCs.
 ## Workflow for reproducing results of RUN-DVC
 1. Generate labeled datasets from source domain.
 2. Train pileup RNN model using source domain datasets. 
-3. Generate unlabeled datasets from target sequencing method (target domain).
+3. Generate unlabeled datasets from sequencing method of interest (target domain).
 4. Train CNN model using both labeled and unlabeled datasets.
-5. Variant calling with the trained model in target sequencing method.
+5. Variant calling with the trained model in the sequencing method of interest.
 ---
 ## Server requirements 
 - More than 100GB of RAM (minimum 64GB)
