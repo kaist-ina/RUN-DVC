@@ -1,6 +1,7 @@
 # RUN-DVC: Generalizing DL-based variant callers (DVC) via domain adaptation and semi-supervised learning
-
+<div align="center">
 <img src="docs/DALL·E_logo.png" width="35%" style="margin-left: auto; margin-right: auto; display: block;" />
+</div>
 
 Contact: Youngmok Jung, Dongsu Han, Young Seok Ju
 
