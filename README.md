@@ -3,7 +3,7 @@
 <img src="docs/DALL·E_logo.png" width="35%" style="margin-left: auto; margin-right: auto; display: block;" />
 </div>
 
-Contact: Youngmok Jung, Dongsu Han, Young Seok Ju
+Contact: [Youngmok Jung](https://quito418.github.io/quito418/), Dongsu Han, Young Seok Ju
 
 Email: tom418@kaist.ac.kr, dhan.ee@kaist.ac.kr, ysju@kaist.ac.kr
 
